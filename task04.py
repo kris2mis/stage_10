@@ -26,10 +26,9 @@ def find_sequence(n):
 
 def main():
     n = int(input("Input your number: "))
+    find_sequence(n)
 
-    sequence = find_sequence(n)
-
-    msg = f"The sequence of prime numbers: {sequence}"
+    # msg = f"The sequence of prime numbers: {sequence}"
 
 
 main()
